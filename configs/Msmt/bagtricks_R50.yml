@@ -1,0 +1,7 @@
+_BASE_: ../Base-bagtricks.yml
+
+DATASETS:
+  NAMES: ("msmt17",)
+  TESTS: ("msmt17",)
+
+OUTPUT_DIR: logs/msmt17
