@@ -1,6 +1,7 @@
 # Camera-Conditioned Stable Feature Generation for Isolated Camera Supervised Person Re-IDentification （CVPR'22）
 
-This repository is Pytorch code for our proposed Camera-Conditioned Stable Feature Generation (CCSFG).
+This repository is Pytorch code for our proposed Camera-Conditioned Stable Feature Generation (CCSFG). 
+Paper link: https://arxiv.org/abs/2203.15210
 
 ## Environment
 
@@ -41,7 +42,7 @@ If you find this code useful, please kindly cite the following paper:
 @article{wu2022camera,
   title={Camera-Conditioned Stable Feature Generation for Isolated Camera Supervised Person Re-IDentification},
   author={Wu, Chao and Ge, Wenhang and Wu, Ancong and Chang, Xiaobin},
-  journal={arXiv preprint arXiv:2203.15210},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022}
 }
 </pre>
