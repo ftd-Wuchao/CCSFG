@@ -32,7 +32,7 @@ To train and test the model, you can use following command:
 CUDA_VISIBLE_DEVICES=0 python tools/train_net.py --config-file configs/Msmt/AGW_R50.yml
 ```
 
-If you only want to test the model, you can download our model [Google Drive (Waiting)]() or [Baidu Drive (Code:0000)](https://pan.baidu.com/s/1CJ3aI58R7LZnShkru2Myfg) to ```logs/``` and use following command:
+If you only want to test the model, you can download our model [Google Drive](https://drive.google.com/file/d/1j_gYUvbeuxz7xt_u1_yx_nIPmXvI5Qgo/view?usp=sharing) or [Baidu Drive (Code:0000)](https://pan.baidu.com/s/1CJ3aI58R7LZnShkru2Myfg) to ```logs/``` and use following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python tools/train_net.py --config-file configs/Msmt/AGW_R50.yml --eval-only  MODEL.WEIGHTS logs/msmt.pth
 ```
