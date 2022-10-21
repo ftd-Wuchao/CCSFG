@@ -1,6 +1,8 @@
 # Camera-Conditioned Stable Feature Generation for Isolated Camera Supervised Person Re-IDentification （CVPR'22）
 
-This repository is Pytorch code for our proposed Camera-Conditioned Stable Feature Generation (CCSFG).
+This repository is Pytorch code for our proposed Camera-Conditioned Stable Feature Generation (CCSFG). 
+
+Paper link: https://arxiv.org/abs/2203.15210
 
 ## Environment
 
@@ -30,7 +32,7 @@ To train and test the model, you can use following command:
 CUDA_VISIBLE_DEVICES=0 python tools/train_net.py --config-file configs/Msmt/AGW_R50.yml
 ```
 
-If you only want to test the model, you can download our model [Google Drive (Waiting)]() or [Baidu Drive (Code:0000)](https://pan.baidu.com/s/1CJ3aI58R7LZnShkru2Myfg) to ```logs/``` and use following command:
+If you only want to test the model, you can download our model [Google Drive](https://drive.google.com/file/d/1j_gYUvbeuxz7xt_u1_yx_nIPmXvI5Qgo/view?usp=sharing) or [Baidu Drive (Code:0000)](https://pan.baidu.com/s/1CJ3aI58R7LZnShkru2Myfg) to ```logs/``` and use following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python tools/train_net.py --config-file configs/Msmt/AGW_R50.yml --eval-only  MODEL.WEIGHTS logs/msmt.pth
 ```
@@ -41,7 +43,7 @@ If you find this code useful, please kindly cite the following paper:
 @article{wu2022camera,
   title={Camera-Conditioned Stable Feature Generation for Isolated Camera Supervised Person Re-IDentification},
   author={Wu, Chao and Ge, Wenhang and Wu, Ancong and Chang, Xiaobin},
-  journal={arXiv preprint arXiv:2203.15210},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022}
 }
 </pre>
